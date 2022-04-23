@@ -1,0 +1,35 @@
+// header
+.download,
+.upload {
+  width: 65px;
+  height: 45px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.download {
+  background-color: #49cc49;
+  &:hover {
+    background-color: #fff;
+    color: #49cc49;
+  }
+}
+
+.upload {
+  margin-left: 5px;
+  background-color: #ff6f47;
+  &:hover {
+    background-color: #fff;
+    color: #ff6f47;
+  }
+}
+
+.gold-container {
+  margin-left: 15px;
+  font-size: 1.5rem;
+  .gold-icon {
+    color: #ffff00;
+  }
+}
